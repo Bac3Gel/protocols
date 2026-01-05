@@ -1,0 +1,235 @@
+---
+title: "Gradient Gut<sup>3</sup>Gel（結腸用)"
+subtitle: "技術情報"
+#author: "Bac<sup>3</sup>Gel"
+language: 
+  title-block-published: "DATE"
+lightbox: TRUE
+format: 
+  html:
+    page-footer: "**Bac<sup>3</sup>Gel** &copy 2025"
+    title-block-banner: images/background_light_green.png
+    title-block-style: plain
+    title-block-banner-color: "#222A1B"
+    grid:
+      body-width: 1820px
+      margin-width: 0px
+    #date: today
+    #date-format: long
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-title: Table of Contents
+    toc-location: left
+    collapse: true
+    embed-resources: true
+editor: source
+output:
+  html_document:
+    df_print: DT
+---
+
+```{=html}
+<style> body {text-align: justify} </style>
+```
+
+::: {#ldmode}
+<img src="images/dark-light-mode.png" alt="Logo"/>
+:::
+
+::: {#logo}
+<a href="https://bac3gel.com"> <img src="images/B3G_logo.png" alt="Logo"/> </a>
+:::
+
+
+## 製品説明
+
+再現性が高く、かつハイスループットな *in vitro* モデルは、複雑な微生物コミュニティを研究するうえで不可欠である。本キットは、ヒト結腸の粘液層を *in vitro* でモデル化することを目的として設計されている。**Gut<span style="color:#97c879"><sup>3</sup></span>Gel** は、ヒトマイクロバイオータ試料を培養するためのプラットフォームとして本プロトコルで実証されている。本プロトコルでは、マルチウェルプレート形式を用いて糞便試料を **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** 内で培養する方法、および下流解析のための試料調製手順を記載する。下流アッセイには、細胞生存率評価、フローサイトメトリー、メタボロミクス解析、シーケンシングが含まれる。Gut³Gel の潜在的な応用例としては、微生物マイニング、ドラッグスクリーニング、ならびに透過性アッセイが挙げられる。
+
+## 構成品
+
+- 勾配型 **Gut<span style="color:#97c879"><sup>3</sup></span>Gel**（結腸用） を含むマルチウェルプレート ×2
+
+- Bac<sup>3</sup>Gel&reg; 溶解培地（50 mM クエン酸ナトリウム）50 mL
+
+## 別途必要な試薬（本キットには含まれません）
+
+- 脱イオン水で調製した 0.9%（w/v）NaCl 溶液
+
+## 保管条件
+
+密閉容器に入れ、乾燥した場所で 2～25 °C にて保管してください。
+
+本製品は、少なくとも 9 か月間保管可能です。
+
+## 注意事項および免責事項
+
+本製品は研究開発目的（R&D）のみに使用してください。
+
+## 手順
+
+### 開始前に
+
+以下のプロトコルは糞便試料を使用する場合の具体的な手順を記載しているが、本プロトコルは単一培養（モノカルチャー）、共培養、ならびに微生物コンソーシアの培養にも使用されている。本プロトコルで使用した **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** は Brain Heart Infusion（BHI）培地中で製造され、50 mg·mL⁻¹ のブタ胃由来タイプIIIムチンから構成されている。Gut³Gel の組成は完全に調整可能であり、他のムチンタイプ、タンパク質、脂質、培地の組み込みなど、カスタマイズ組成が商業的に提供されている。**Gut<span style="color:#97c879"><sup>3</sup></span>Gel** 内の架橋勾配および酸素勾配は、製造工程中に形成される固有の特性であり、微生物培養によって動的に変化する。
+
+- 全ての器具および消耗品（ブレンダー、ざる、ピペット、ファルコンチューブ、マイクロチューブ）は滅菌され、汚染のない状態であることを確認してください。
+
+- すべての操作は無菌条件下で行い、理想的にはクラスIIバイオセーフティキャビネット内で実施してください。
+
+- 0.9%（w/v）の滅菌 NaCl 溶液を用意してください。
+
+
+### A. 糞便試料の処理
+
+ {{< iconify svg-spinners:clock >}} **所要時間: 約 15 分**
+
+**1.** 新鮮な糞便試料を少なくとも 30 g 量り取り、滅菌済みのブレンダーに移す。
+  
+  - 糞便 30 g ごとに、滅菌済み 0.9% (w/v) NaCl 溶液 150 mL を加える。
+
+  - 均一なスラリーが得られるまで混合する。
+
+**2.** 大きな固形物を除去するため、スラリーを滅菌済みのざるで濾し、滅菌容器に移す。
+
+  - 50 mL ファルコンチューブに分注する。
+  
+  - 使用まで濾過したスラリーを氷上で保持する（1時間を超えないこと）。
+
+::: {.callout-tip}
+## オプション
+
+濾過したスラリーは分注し、グリセロールを最終濃度 10%（v/v）で添加したうえで、将来の実験用に −80 °C で保存することができる。微生物の多様性を保持するため、できるだけ迅速に行う必要がある。
+
+:::
+
+::: {.callout-warning}
+## 重要
+
+糞便試料はできるだけ新鮮なものを使用すること。理想的には、採取後 30 分以内に処理を開始する。
+
+微生物の生存率を維持するため、迅速な処理が不可欠である。
+
+微生物への機械的損傷を防ぐため、過度のブレンディングは避けること。
+:::
+
+
+### B. **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** での培養
+
+{{< iconify svg-spinners:clock >}} **所要時間: 約 1 プレートあたり 5 分**
+
+**1.** 室温で **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** マルチウェルプレートを準備する。本プロトコルでは 24 ウェルプレートを例として使用する。
+
+**2.** 各ウェルに糞便スラリーを **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** と体積比 1:1 で加える。
+
+例：24 ウェルプレートの場合、各ウェルに 700 µL の糞便スラリーを加える（各ウェルには 700 µL の **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** が含まれる）。
+
+他のプレートフォーマットにおける体積：
+
+ - 6 ウェル：3,700 &#956;L
+ - 12 ウェル：1,600 &#956;L
+ - 48 ウェル：350 &#956;L
+ - 96 ウェル：100 &#956;L
+ 
+**3.** プレートに蓋をし、実験デザインに応じて 37 °C で好気または嫌気条件下で最大 72 時間培養する。
+
+::: {.callout-note}
+## 注意
+
+推奨培養期間は 72 時間であるが、ユーザーの実験目的に応じて調整可能である。
+
+分子（例：プロバイオティクスや活性成分）がマイクロバイオータに与える影響を評価する場合、対象分子を添加する前に **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** 内で 37 °C、24 時間培養し、マイクロバイオータを安定化させることが推奨される。
+
+:::
+
+::: {.callout-tip}
+## オプション
+
+培養前にマルチウェルプレートを通気性シール膜で覆うことで、交差汚染を防ぐことができる。
+
+:::
+
+::: {.callout-warning}
+## 重要
+
+糞便スラリーは **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** の上面に優しく加えること（交差汚染を避けるため）。混ぜないこと。
+
+厳密な必須条件ではないが、培養前に **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** 内を嫌気条件にしておくと、絶対嫌気性菌の損失を防ぐことができる。
+
+:::
+
+
+### C. **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** の溶解
+
+{{< iconify svg-spinners:clock >}} **所要時間: 1 ウェルあたり約 3 分**
+
+**1.** 各ウェルについて、**Gut<span style="color:#97c879"><sup>3</sup></span>Gel** を乱さないように注意しながら、上清を優しく吸引して除去する。
+
+  - 24 ウェルプレートの場合、0.9% NaCl 溶液 700 µL を加えてゲルを洗浄する。
+
+  - 上清を優しく吸引して廃棄する。 
+  
+
+::: {.callout-note}
+## 注意
+
+洗浄ステップにより、**Gut<span style="color:#97c879"><sup>3</sup></span>Gel** に定着している微生物のみを評価対象とすることができる。
+:::
+
+**2.** 各ウェルに Bac<sup>3</sup>Gel&reg; 溶解培地（50 mM クエン酸ナトリウム溶液）を加える。**Gut<span style="color:#97c879"><sup>3</sup></span>Gel** の構造が完全に溶解するまで十分に混合する。
+
+  - 各ウェルに加える Bac<sup>3</sup>Gel&reg; 溶解培地 の体積を計算するには、マルチウェルプレートの種類に応じた **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** の体積（µL）を入力し、Calculate をクリックする。  
+  
+
+```{=html}
+<input id="userInput" type="number" placeholder="Enter Gut3Gel volume (µL)">
+<button onclick="calculate()" style="color: #c6dda4; font-weight: bold;">Calculate</button>
+
+
+<p id="result"></p>
+
+<script>
+function calculate() {
+  // get input value
+  var x = parseFloat(document.getElementById("userInput").value);
+
+  if (isNaN(x)) {
+    document.getElementById("result").innerHTML = "❌ Please enter a valid number.";
+    return;
+  }
+
+  // formula
+  var y = 1.5 * x;   
+
+  // show result
+  document.getElementById("result").innerHTML = "Add: " + y.toFixed(0) + " &#956;L";
+}
+</script>
+```
+
+  - 均質化した試料をマイクロチューブに移す。
+  
+::: {.callout-note}
+## 注意
+
+**Gut<span style="color:#97c879"><sup>3</sup></span>Gel** の完全な溶解には、プレート形式や多糖類（エキソポリサッカライド）の有無により時間がかかる場合がある。
+
+シーケンシングの場合：試料を遠心分離（14,000 x g、10 分）し、ペレットを用いて DNA を抽出する。
+
+メタボロミクスの場合：試料を遠心分離（14,000 x g、10 分）し、上清を回収して凍結乾燥する。
+
+その他の応用例として、細胞生存率の評価、フローサイトメトリー解析、代謝活性の測定、標準的な微生物学的特性評価アッセイの実施などがある。
+:::
+
+
+## トラブルシューティング
+
+**問題 1**
+
+ゲルが適切に溶解しない、または溶解に時間がかかる。
+
+**考えられる解決策**
+
+*解決策 1:* 50 mM クエン酸ナトリウム溶液の体積を増やし、十分に混合する。
+

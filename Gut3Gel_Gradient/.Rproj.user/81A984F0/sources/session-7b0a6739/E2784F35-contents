@@ -1,0 +1,234 @@
+---
+title: "Gradient Gut<sup>3</sup>Gel Colonic"
+subtitle: "Technical Bulletin"
+#author: "Bac<sup>3</sup>Gel"
+language: 
+  title-block-published: "DATE"
+lightbox: TRUE
+format: 
+  html:
+    page-footer: "**Bac<sup>3</sup>Gel** &copy 2025"
+    title-block-banner: images/background_light_green.png
+    title-block-style: plain
+    title-block-banner-color: "#222A1B"
+    grid:
+      body-width: 1820px
+      margin-width: 0px
+    #date: today
+    #date-format: long
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-title: Table of Contents
+    toc-location: left
+    collapse: true
+    embed-resources: true
+editor: source
+output:
+  html_document:
+    df_print: DT
+---
+
+```{=html}
+<style> body {text-align: justify} </style>
+```
+
+::: {#ldmode}
+<img src="images/dark-light-mode.png" alt="Logo"/>
+:::
+
+::: {#logo}
+<a href="https://bac3gel.com"> <img src="images/B3G_logo.png" alt="Logo"/> </a>
+:::
+
+## Product Description
+
+Reproducible and high-throughput *in vitro* models are essential for studying complex microbial communities. This kit is designed for the *in vitro* modeling of human colon mucus layers. **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** is presented here as a platform for culturing human microbiota samples. The protocol describes how to culture fecal samples in **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** using a multi-well plate format and how to prepare the samples for downstream analyses. Downstream assays include cell viability assessment, flow cytometry, metabolomics, and sequencing. The potential applications of **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** include microbial mining, drug screening, and permeability assays.
+
+## Components
+
+- 2x multi-well plates containing gradient **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** colonic.
+
+- 50 mL Bac<sup>3</sup>Gel&reg; dissolution medium (50 mM sodium citrate).
+
+## Reagent Required But Not Provided
+
+- 0.9% (w/v) NaCl solution prepared in deionized water.
+
+## Storage Conditions
+
+Store in a dry place inside tightly sealed containers at 2-8 &deg;C.
+
+This product can be stored for at least 9 months.
+
+## Precautions and Disclaimer
+
+For R&D use only.
+
+## Procedure
+
+### Before you begin
+
+- The protocol below describes the specific steps for using fecal samples. However, this protocol has also been used to culture monocultures, co-cultures, and microbial consortia. The **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** used in this protocol was produced in Brain Hearth Infusion (BHI) medium and is composed of 50 mg.mL<sup>-1</sup> porcine stomach type III mucin. **Gut<span style="color:#97c879"><sup>3</sup></span>Gel**'s composition is fully tunable; customized compositions are commercially available (i.e. incorporation of other mucin types, proteins, lipids and media). The cross-linking and oxygen gradients within **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** are intrinsic features established during the production process. These are dynamically affected by microbial culturing.
+
+- Ensure all instruments and consumables (blender, colander, pipettes, falcons, and microcentrifuge tubes) are sterilized and free of contaminants.
+
+- All manipulations should be performed under aseptic conditions, ideally in a Class II biological safety cabinet.
+
+- Prepare a 0.9% (w/v) sterile NaCl solution.
+
+
+### A. Fecal Sample Processing
+
+ {{< iconify svg-spinners:clock >}} **Timing: ~ 15 min**
+
+**1.** Weigh at least 30 g of fresh fecal sample and transfer to a sterilized blender.
+  
+  - For each 30 g of fecal sample, add 150 mL of sterile 0.9% NaCl solution.
+
+  - Homogenize the mixture until a uniform slurry is obtained.
+
+**2.** To remove large particulate matter, filter the slurry through a sterilized colander into a sterile container.
+
+  - Aliquot into 50 mL falcon tubes.
+  
+  - Keep the filtered slurry on ice until use (do not exceed 1 hour).
+
+::: {.callout-tip}
+## Optional
+
+Filtered slurry can be aliquoted, supplemented with glycerol (final concentration of 10% v/v) and stored at -80 &deg;C for future experiments. This should be done as quickly as possible to preserve microbial diversity.
+
+:::
+
+::: {.callout-warning}
+## CRITICAL
+
+Fecal samples should be as fresh as possible; ideally, processing should start within 30 minutes from defecation time.
+
+Rapid processing is crucial to maintain microbial viability.
+
+Avoid excessive blending to prevent mechanical damage to microbes.
+:::
+
+
+### B. Culturing in **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** 
+
+{{< iconify svg-spinners:clock >}} **Timing: ~ 5 min per plate**
+
+**1.** Prepare **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** multi-well plates at room temperature. For this protocol, 24-well plates are used as example.
+
+**2.** Add fecal slurry to each well in a 1:1 volume ratio with **Gut<span style="color:#97c879"><sup>3</sup></span>Gel**.
+
+Example: For a 24-well plate, add 700 &#956;L of fecal slurry as each well contains 700 &#956;L of **Gut<span style="color:#97c879"><sup>3</sup></span>Gel**.
+
+Volumes for other plate formats:
+
+ - 6-well: 3,700 &#956;L
+ - 12-well: 1,600 &#956;L
+ - 48-well: 350 &#956;L
+ - 96-well: 100 &#956;L
+ 
+**3.** Cover the plates and incubate at 37 &deg;C under aerobic or anaerobic conditions for up to 72 hours depending on experimental design.
+
+::: {.callout-note}
+## Note
+
+The recommended incubation period is 72 hours but it may be adjusted as required by the user.
+
+To test the effects of molecules (e.g. biotics, active principles) on microbiota, it is recommended to let microbiota stabilize in **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** for 24 hours at 37 &deg;C before adding the molecule of interest.
+
+:::
+
+::: {.callout-tip}
+## Optional
+
+The multi-well plates can be sealed with a breathable sealing membrane prior to incubation to prevent cross-contamination.
+
+:::
+
+::: {.callout-warning}
+## CRITICAL
+
+The fecal slurry should be added gently (to avoid cross-contamination) to the top of **Gut<span style="color:#97c879"><sup>3</sup></span>Gel**. Do not mix. 
+
+While not a strict requirement, ensuring anaerobic conditions prior culturing in **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** will prevent the loss of obligate anaerobes.
+
+:::
+
+
+### C. Dissolution of **Gut<span style="color:#97c879"><sup>3</sup></span>Gel**  
+
+{{< iconify svg-spinners:clock >}} **Timing: ~ 3 min per well**
+
+**1.** For each well, remove the supernatant from the surface of **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** by gentle aspiration, without disturbing the gel.
+
+  - Wash the gels by adding 700 &#956;L (for 24-well plates) of 0.9% NaCl solution.
+
+  - Gently aspirate and discard the supernatant.
+
+::: {.callout-note}
+## Note
+
+The washing step ensures that we only consider microbes colonizing **Gut<span style="color:#97c879"><sup>3</sup></span>Gel**.
+:::
+
+**2.** Add Bac<sup>3</sup>Gel&reg; dissolution medium (50 mM sodium citrate solution) to each well. Mix thoroughly to fully dissolve **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** structure. 
+
+  - To calculate the volume of Bac<sup>3</sup>Gel&reg; dissolution medium to add to each well, enter the volume (&#956;L) of **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** according to the multi-well plate typology and click **Calculate**:
+
+```{=html}
+<input id="userInput" type="number" placeholder="Enter Gut3Gel volume (µL)">
+<button onclick="calculate()" style="color: #c6dda4; font-weight: bold;">Calculate</button>
+
+
+<p id="result"></p>
+
+<script>
+function calculate() {
+  // get input value
+  var x = parseFloat(document.getElementById("userInput").value);
+
+  if (isNaN(x)) {
+    document.getElementById("result").innerHTML = "❌ Please enter a valid number.";
+    return;
+  }
+
+  // formula
+  var y = 1.5 * x;   
+
+  // show result
+  document.getElementById("result").innerHTML = "Add: " + y.toFixed(0) + " &#956;L";
+}
+</script>
+```
+
+  - Transfer the homogenized samples to microcentrifuge tubes.
+  
+::: {.callout-note}
+## Note
+
+Full dissolution of **Gut<span style="color:#97c879"><sup>3</sup></span>Gel** can take some time depending on the plate format and on the presence of exopolysaccharides. 
+
+For sequencing: Centrifuge the samples (14,000 x g, 10 minutes), then use the pellet for DNA extraction.
+
+For metabolomics: Centrifuge the samples (14,000 x g, 10 minutes), then collect and lyophilize the supernatant.
+
+Other applications include assessing cell viability, performing flow cytometry analysis, measuring metabolic activity, and conducting standard microbiological characterization assays.
+:::
+
+
+## Troubleshooting
+
+**Problem 1**
+
+The gels are not dissolving properly or take too long to dissolve.
+
+**Potential solution**
+
+*Solution 1:* Increase the volume of 50 mM sodium citrate and mix.
+
+
+

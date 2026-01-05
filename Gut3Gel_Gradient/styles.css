@@ -1,0 +1,121 @@
+/* styles.css */
+
+/* Position the logo on the top-right of the page */
+#logo {
+  position: absolute;
+  top: 20px;    
+  left: 20px;  
+  z-index: 1000;  
+}
+
+/* Optional: Adjust the size of the logo */
+#logo img {
+  height: auto; 
+  width: 200px;
+}
+
+#ldmode {
+  position: absolute;
+  top: 15px;    
+  right: 40px;  
+  z-index: 1000;  
+}
+
+#ldmode img {
+  height: auto; 
+  width: 20px;
+}
+
+ /* hide logo for small screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    #logo {
+        display: none !important;
+    }
+}
+
+.quarto-title-block .title {
+  padding-top: 0.5em;  /* increase as needed */
+}
+
+/* Import custom fonts */
+@font-face {
+  font-family: 'MyTitleFont';
+  src: url('fonts/Nohemi-Bold.woff') format('woff2');
+}
+
+@font-face {
+  font-family: 'MySubtitleFont';
+  src: url('fonts/Nohemi-SemiBold.woff') format('woff2');
+}
+
+@font-face {
+  font-family: 'MyBodyFont';
+  src: url('fonts/NeueHaasDisplayMediu.ttf') format('ttf');
+}
+
+/* Apply fonts */
+h1, h2, h3 {
+  font-family: 'MyTitleFont', sans-serif;
+}
+
+h4, h5, h6 {
+  font-family: 'MySubtitleFont', sans-serif;
+}
+
+body, p {
+  font-family: 'MyBodyFont', serif;
+}
+
+:root {
+  --dt-bg: #ffffff;
+  --dt-text: #222222;
+  --dt-header: #202938;
+  --dt-border: #000000;
+  --dt-hover: #f0f0f0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dt-bg: #181818;
+    --dt-text: #f4f4f4;
+    --dt-header: #202938;
+    --dt-border: #000000;
+    --dt-hover: #222232;
+  }
+}
+
+.dataTable {
+  background-color: var(--dt-bg);
+  color: var(--dt-text);
+  border-color: var(--dt-border);
+}
+.dataTable th {
+  background-color: var(--dt-header);
+  color: var(--dt-text);
+  border-color: var(--dt-border);
+}
+.dataTable tbody tr:hover {
+  background-color: var(--dt-hover);
+}
+.dataTable,
+.dataTable th,
+.dataTable td {
+  transition: background-color 0.3s, color 0.3s;
+}
